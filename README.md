@@ -1,5 +1,4 @@
-# Inceptial-Assignment
+## Inceptial Assignment
 
-# demo 
+# This assignment based on python
 
-This is a demo readme file
