@@ -1,4 +1,4 @@
-## Inceptial Assignment
+# Inceptial Assignment
 
-# This assignment based on python
+## This assignment based on python
 
