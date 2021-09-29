@@ -13,4 +13,3 @@ print("The Number:")
 
 for i in numbers:
     print(i)
-
