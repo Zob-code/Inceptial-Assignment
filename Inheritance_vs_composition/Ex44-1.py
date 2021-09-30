@@ -1,4 +1,4 @@
-# implicit inheritence
+# implicit inheritence Topic
 
 class Parent(object):
     def implicit(self):
