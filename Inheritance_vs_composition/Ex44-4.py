@@ -1,4 +1,4 @@
-# this is the composition part
+# this is the composition method
 class Other(object):
 
     def override(self):
