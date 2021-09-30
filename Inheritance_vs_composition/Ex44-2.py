@@ -1,4 +1,4 @@
-# explicit override
+# explicit override method
 class Parent(object):
 
     def override(self):
