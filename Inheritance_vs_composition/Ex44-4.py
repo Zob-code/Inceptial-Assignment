@@ -1,18 +1,33 @@
 # this is the composition part
-class Parent(object):
+class Other(object):
+
+    def override(self):
+        print("Other override")
+
+    def implicit(self):
+        print("Other implicit")
 
     def altered(self):
-        print("parent Altered")
+        print("Other Altered")
 
-class Child(Parent):
+class Child(object):
+
+    def __init__(self):
+        self.other = Other()
+
+    def implicit(self):
+        self.other.implicit()
+
+    def override(self):
+        print("Child override")
 
     def altered(self):
         print("Child Altered")
         super(Child, self).altered()
         print("Child, after altered!")
 
-dad = Parent()
 son = Child()
 
-dad.altered()
+son.implicit()
+son.override()
 son.altered()
