@@ -1,4 +1,4 @@
-# Alter before and after
+# Alter before and after method
 class Parent(object):
 
     def altered(self):
