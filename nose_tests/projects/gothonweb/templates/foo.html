@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Foo</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    </head>
+
+    <body>
+
+        {% if message %}
+            <p>Message Provided</p>
+        {% else %}
+            No Message
+        {% endif %}
+    </body>
+</html>
